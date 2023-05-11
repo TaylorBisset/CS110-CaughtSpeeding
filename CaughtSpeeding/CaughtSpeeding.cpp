@@ -25,4 +25,8 @@ int main()
 	{
 		cout << "You are getting a big ticket for your speeding. You better watch your speed!\n";
 	}
+	else if (userSpeed > 100)
+	{
+		cout << "Alright buddy. Your car is being impounded... And you're off to the slammer!\n";
+	}
 }
