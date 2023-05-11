@@ -15,10 +15,14 @@ int main()
 	
 	if (userSpeed <= 60)
 	{
-		cout << "You are free to go. No speeding ticket this time...";
+		cout << "You are free to go. No speeding ticket this time...\n";
 	}
 	else if (userSpeed > 60 && userSpeed <= 80)
 	{
 		cout << "You're getting a small ticket. Please slow down.\n";
+	}
+	else if (userSpeed > 80 && userSpeed <= 100)
+	{
+		cout << "You are getting a big ticket for your speeding. You better watch your speed!\n";
 	}
 }
