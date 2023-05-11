@@ -5,9 +5,11 @@ using namespace std;
 int main()
 {
 	int userSpeed = 60;
+
 	cout << "You are driving a little too fast, and a police officer stops you.\n";
 	cout << "How fast were you going? \n";
 	cout << "Your speed in mph: ";
+	
 	cin >> userSpeed;
 	cout << endl;
 	
@@ -15,5 +17,8 @@ int main()
 	{
 		cout << "You are free to go. No speeding ticket this time...";
 	}
-
+	else if (userSpeed > 60 && userSpeed <= 80)
+	{
+		cout << "You're getting a small ticket. Please slow down.\n";
+	}
 }
